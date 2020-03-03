@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Ex_9/1.0.0": {
+        "dependencies": {
+          "Commom": "1.0.0"
+        },
+        "runtime": {
+          "Ex_9.dll": {}
+        }
+      },
+      "Commom/1.0.0": {
+        "runtime": {
+          "Commom.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ex_9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

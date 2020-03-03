@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Ex_7\\Ex_7.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj",
+        "projectName": "Commom",
+        "projectPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj",
+        "packagesPath": "C:\\Users\\kaio.soares\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaio.soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Ex_7\\Ex_7.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Ex_7\\Ex_7.csproj",
+        "projectName": "Ex_7",
+        "projectPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Ex_7\\Ex_7.csproj",
+        "packagesPath": "C:\\Users\\kaio.soares\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Ex_7\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kaio.soares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj": {
+                "projectPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

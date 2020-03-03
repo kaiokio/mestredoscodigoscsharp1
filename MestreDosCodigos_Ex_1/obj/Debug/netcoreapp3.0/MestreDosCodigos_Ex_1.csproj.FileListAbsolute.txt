@@ -1,0 +1,11 @@
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.exe
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.deps.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.runtimeconfig.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.runtimeconfig.dev.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.csprojAssemblyReference.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.AssemblyInfoInputs.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.AssemblyInfo.cs
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\MestreDosCodigos_Ex_1.pdb

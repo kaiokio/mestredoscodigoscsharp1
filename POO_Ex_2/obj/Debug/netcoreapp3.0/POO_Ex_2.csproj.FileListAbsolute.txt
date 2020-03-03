@@ -1,0 +1,13 @@
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.exe
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.AssemblyInfoInputs.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.AssemblyInfo.cs
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.deps.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.runtimeconfig.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.runtimeconfig.dev.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\POO_Ex_2.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\Bogus.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.csprojAssemblyReference.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.csproj.CopyComplete
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.pdb

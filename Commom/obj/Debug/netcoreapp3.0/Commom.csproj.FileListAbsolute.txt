@@ -1,0 +1,7 @@
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\bin\Debug\netcoreapp3.0\Commom.deps.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\bin\Debug\netcoreapp3.0\Commom.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\bin\Debug\netcoreapp3.0\Commom.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.AssemblyInfoInputs.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.AssemblyInfo.cs
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.pdb
