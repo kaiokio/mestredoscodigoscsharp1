@@ -1,0 +1,10 @@
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.exe
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.deps.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.runtimeconfig.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.runtimeconfig.dev.json
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\bin\Debug\netcoreapp3.0\Ex_5.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\obj\Debug\netcoreapp3.0\Ex_5.AssemblyInfoInputs.cache
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\obj\Debug\netcoreapp3.0\Ex_5.AssemblyInfo.cs
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\obj\Debug\netcoreapp3.0\Ex_5.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Ex_5\obj\Debug\netcoreapp3.0\Ex_5.pdb
