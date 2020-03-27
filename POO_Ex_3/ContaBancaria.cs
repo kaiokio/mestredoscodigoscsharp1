@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_Ex_3
 {
-    abstract class ContaBancaria
+    public abstract class ContaBancaria
     {
         /*
             Crie uma classe abstrata Conta Bancaria que contém como atributos, numero da conta e o saldo, e como métodos abstratos sacar e depositar que recebem um parâmetro do tipo double.

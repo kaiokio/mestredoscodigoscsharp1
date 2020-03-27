@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_Ex_3
 {
-    interface IImprimivel
+    public interface IImprimivel
     {
         void MostrarDados();
     }

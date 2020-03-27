@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.0": {
       "Ex_1/1.0.0": {
+        "dependencies": {
+          "Commom": "1.0.0"
+        },
         "runtime": {
           "Ex_1.dll": {}
+        }
+      },
+      "Commom/1.0.0": {
+        "runtime": {
+          "Commom.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Ex_1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commom/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,3 +9,6 @@ C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\ob
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\Ex_1.AssemblyInfo.cs
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\Ex_1.dll
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\Ex_1.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\Commom.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\bin\Debug\netcoreapp3.0\Commom.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\MestreDosCodigos_Ex_1\obj\Debug\netcoreapp3.0\Ex_1.csproj.CopyComplete

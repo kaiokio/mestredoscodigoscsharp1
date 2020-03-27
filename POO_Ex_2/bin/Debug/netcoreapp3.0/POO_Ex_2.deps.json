@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.0": {
       "POO_Ex_2/1.0.0": {
         "dependencies": {
-          "Bogus": "29.0.1"
+          "Bogus": "29.0.1",
+          "Commom": "1.0.0"
         },
         "runtime": {
           "POO_Ex_2.dll": {}
@@ -20,6 +21,11 @@
             "assemblyVersion": "29.0.1.0",
             "fileVersion": "29.0.1.0"
           }
+        }
+      },
+      "Commom/1.0.0": {
+        "runtime": {
+          "Commom.dll": {}
         }
       }
     }
@@ -36,6 +42,11 @@
       "sha512": "sha512-gpNhpnv2K1f06Dhx+ky5YP649aViUgVDPbr48hgr8Jtilg8Oylx/kFeUKMnqw8tPROOmJEbSXob2WSYwqXeqZg==",
       "path": "bogus/29.0.1",
       "hashPath": "bogus.29.0.1.nupkg.sha512"
+    },
+    "Commom/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
