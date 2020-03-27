@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Commom.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace POO_Ex_2
 {
-    class Pessoa
+    public class Pessoa
     {
         private string _nome;
 
@@ -35,18 +36,7 @@ namespace POO_Ex_2
             Console.WriteLine(this.ToString());
         }
 
-        public int Idade()
-        {
-            var dataAtual = DateTime.Today;
-            var idade = dataAtual.Year - _dataNascimento.Year;
-
-            if (_dataNascimento.Date > dataAtual.AddYears(-idade))
-            {
-                idade--;
-            }
-
-            return idade;
-        }
+        public int Idade() => _dataNascimento.CalculateAgeCurrentDate();
 
         public override string ToString()
         {

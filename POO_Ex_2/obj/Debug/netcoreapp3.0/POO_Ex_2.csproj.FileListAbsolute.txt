@@ -11,3 +11,5 @@ C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netco
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.csproj.CopyComplete
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.dll
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\obj\Debug\netcoreapp3.0\POO_Ex_2.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\Commom.dll
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\POO_Ex_2\bin\Debug\netcoreapp3.0\Commom.pdb

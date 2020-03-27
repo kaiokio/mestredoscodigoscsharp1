@@ -5,3 +5,4 @@ C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcore
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.AssemblyInfo.cs
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.dll
 C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.pdb
+C:\Users\kaio.soares\source\repos\MestreDosCodigos_Ex_1\Commom\obj\Debug\netcoreapp3.0\Commom.csprojAssemblyReference.cache

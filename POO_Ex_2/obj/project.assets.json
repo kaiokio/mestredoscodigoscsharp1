@@ -10,6 +10,16 @@
         "runtime": {
           "lib/netstandard2.0/Bogus.dll": {}
         }
+      },
+      "Commom/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Commom.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commom.dll": {}
+        }
       }
     }
   },
@@ -30,11 +40,17 @@
         "lib/netstandard2.0/Bogus.dll",
         "lib/netstandard2.0/Bogus.xml"
       ]
+    },
+    "Commom/1.0.0": {
+      "type": "project",
+      "path": "../Commom/Commom.csproj",
+      "msbuildProject": "../Commom/Commom.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Bogus >= 29.0.1"
+      "Bogus >= 29.0.1",
+      "Commom >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -66,7 +82,11 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj": {
+              "projectPath": "C:\\Users\\kaio.soares\\source\\repos\\MestreDosCodigos_Ex_1\\Commom\\Commom.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

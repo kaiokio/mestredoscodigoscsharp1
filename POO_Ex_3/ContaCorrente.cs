@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_Ex_3
 {
-    class ContaCorrente : ContaBancaria, IImprimivel
+    public class ContaCorrente : ContaBancaria, IImprimivel
     {
         /*
          A Conta Corrente possui um atributo taxaDeOperação que é descontado sempre que um saque e um depósito são feitos.

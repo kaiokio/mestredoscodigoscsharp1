@@ -4,7 +4,7 @@ using System.Text;
 
 namespace POO_Ex_3
 {
-    class ContaEspecial : ContaBancaria, IImprimivel
+    public class ContaEspecial : ContaBancaria, IImprimivel
     {
         /*
            A Conta Especial possui um atributo limite que dá credito a mais para o correntista caso ele precise sacar mais que o saldo. 
