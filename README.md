@@ -41,3 +41,16 @@ Exercício 3 POO: (Não é necessário ação do usuário a não ser executar o 
 
 Exercício 4 POO:<br />
 ![](images/Ex_4_POO.PNG)
+
+Exercício 2 POO Executado no Linux:
+
+Pra realizar o build utilizei o comando:
+dotnet publish -c release -r ubuntu.16.04-x64 --self-contained
+Zipei a pasta e coloquei no linux. 
+
+Linux:
+unzip publish.zip
+chmod 777 ./POO_Ex_2
+./POO_Ex_2
+
+![](images/ex_on_linux.png)
