@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Commom.Culture;
+using Commom.Extensions;
+using Commom.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -6,14 +9,14 @@ namespace POO_Ex_3
 {
     class Program
     {
-        private const int INSERIR_CONTA_CORRENTE = 1;
-        private const int INSERIR_CONTA_ESPECIAL = 2;
-        private const int DEPOSITAR_DE_CONTA = 3;
-        private const int SACAR_DE_CONTA = 4;
-        private const int MOSTRAR_DADOS_TODAS_CONTAS = 5;
-        private const int OPCAO_SAIR = 0;
+        private const int INSERT_NORMAL_ACCOUNT = 1;
+        private const int INSERT_SPECIAL_ACCOUNT = 2;
+        private const int DEPOSIT = 3;
+        private const int WITHDRAW = 4;
+        private const int SHOW_DATA_FOR_ALL_ACCOUNTS = 5;
+        private const int EXIT = 0;
 
-        private static List<ContaBancaria> listContas = new List<ContaBancaria>();
+        private static List<BankAccount> _accounts = new List<BankAccount>();
 
         static void Main(string[] args)
         {
@@ -27,9 +30,10 @@ namespace POO_Ex_3
                 Via console, abra 2 contas de cada tipo execute todas as operações.
              */
 
+            ProgramCulture.ChangeCurrentCulture("pt-BR");
             Console.WriteLine("POO - Exercício 3 - Faça uma aplicação bancaria.");
 
-            int opcaoMenu;
+            int menuOption;
 
             do
             {
@@ -39,28 +43,28 @@ namespace POO_Ex_3
                 Console.WriteLine(" 3 - Depositar em Conta existente.");
                 Console.WriteLine(" 4 - Sacar de Conta existente.");
                 Console.WriteLine(" 5 - Imprimir dados de todas contas.");
-                Console.WriteLine(" 0  - SAIR");
+                Console.WriteLine(" 0 - SAIR");
 
-                int.TryParse(Console.ReadLine(), out opcaoMenu);
+                ConsoleHelper.ReadPositiveInt("Digite uma opção do Menu", out menuOption);
 
                 try
                 {
-                    switch (opcaoMenu)
+                    switch (menuOption)
                     {
-                        case INSERIR_CONTA_CORRENTE:
-                            InserirContaCorrente();
+                        case INSERT_NORMAL_ACCOUNT:
+                            InsertNormalAccount();
                             break;
-                        case INSERIR_CONTA_ESPECIAL:
-                            InserirContaEspecial();
+                        case INSERT_SPECIAL_ACCOUNT:
+                            InsertSpecialAccount();
                             break;
-                        case DEPOSITAR_DE_CONTA:
-                            Depositar();
+                        case DEPOSIT:
+                            Deposit();
                             break;
-                        case SACAR_DE_CONTA:
-                            Sacar();
+                        case WITHDRAW:
+                            Withdraw();
                             break;
-                        case MOSTRAR_DADOS_TODAS_CONTAS:
-                            MostrarDadosTodasContas();
+                        case SHOW_DATA_FOR_ALL_ACCOUNTS:
+                            ShowDataForAllAccounts();
                             break;
                     }
                 }
@@ -69,87 +73,87 @@ namespace POO_Ex_3
                     Console.WriteLine($"Erro: {e.Message}");
                 }
             }
-            while (opcaoMenu != OPCAO_SAIR);
+            while (menuOption != EXIT);
         }
 
-        static void InserirContaCorrente()
+        static void InsertNormalAccount()
         {
             Console.WriteLine();
-            Console.WriteLine("Adicionando nova Conta Corrente:"+Environment.NewLine);
-            Console.WriteLine("Digite o número da Conta:");
-            int.TryParse(Console.ReadLine(), out int numeroConta);
-            Console.WriteLine("Digite o valor da taxa de operação (separado por vírgula se for decimal):");
-            double.TryParse(Console.ReadLine(), out double taxaOperacao);
+            Console.WriteLine("Adicionando nova Conta Corrente:" + Environment.NewLine);
+            ConsoleHelper.ReadPositiveInt("Digite o número da Conta:", out int accountNumber);
+            Console.WriteLine();
 
-            if(ContaExiste(numeroConta))
+            if (ExistsAccount(accountNumber))
             {
-                throw new ArgumentException($"Número da Conta {numeroConta} já existe.");
+                throw new ArgumentException($"Número da Conta {accountNumber} já existe.");
             }
 
-            listContas.Add(new ContaCorrente(numeroConta, taxaOperacao));
+            ConsoleHelper.ReadPositiveOrZeroDecimal("Digite o valor da taxa de operação (separado por vírgula se for decimal):", out decimal operationRate);
+            
+            _accounts.Add(new NormalBankAccount(accountNumber, operationRate));
         }
 
-        static void InserirContaEspecial()
+        static void InsertSpecialAccount()
         {
             Console.WriteLine();
             Console.WriteLine("Adicionando nova Conta Especial:" + Environment.NewLine);
-            Console.WriteLine("Digite o número da Conta:");
-            int.TryParse(Console.ReadLine(), out int numeroConta);
-            Console.WriteLine("Digite o valor do limite (separado por vírgula se for decimal):");
-            double.TryParse(Console.ReadLine(), out double limite);
+            ConsoleHelper.ReadPositiveInt("Digite o número da Conta:", out int accountNumber);
+            Console.WriteLine();
 
-            if (ContaExiste(numeroConta))
+            if (ExistsAccount(accountNumber))
             {
-                throw new ArgumentException($"Número da Conta {numeroConta} já existe.");
+                throw new ArgumentException($"Número da Conta {accountNumber} já existe.");
             }
 
-            listContas.Add(new ContaEspecial(numeroConta, limite));
+            ConsoleHelper.ReadPositiveOrZeroDecimal("Digite o valor do limite (separado por vírgula se for decimal):", out decimal limit);
+
+            _accounts.Add(new SpecialBankAccount(accountNumber, limit));
         }
 
-        static bool ContaExiste(int numeroConta) => listContas.Any(c => c.NumeroDaConta == numeroConta);
+        static bool ExistsAccount(int accountNumber) => _accounts.Any(c => c.AccountNumber.Equals(accountNumber));
 
-        static void Depositar()
+        static void Deposit()
         {
             Console.WriteLine();
             Console.WriteLine("Realizar Depósito:" + Environment.NewLine);
-            Console.WriteLine("Digite o número da Conta:");
-            int.TryParse(Console.ReadLine(), out int numeroConta);
-            Console.WriteLine("Digite o valor do Depósito (separado por vírgula se for decimal):");
-            double.TryParse(Console.ReadLine(), out double deposito);
 
-            var conta = listContas.Find(c => c.NumeroDaConta == numeroConta);
+            ConsoleHelper.ReadPositiveInt("Digite o número da Conta:", out int accountNumber);
+            Console.WriteLine();
+            ConsoleHelper.ReadPositiveOrZeroDecimal("Digite o valor do Depósito (separado por vírgula se for decimal):", out decimal depositValue);
 
-            if(conta == null)
+            var account = _accounts.Find(c => c.AccountNumber == accountNumber);
+
+            if (account == null)
             {
                 throw new ArgumentException("Conta não encontrada");
             }
 
-            conta.Depositar(deposito);
+            account.Deposit(depositValue);
         }
 
-        static void Sacar()
+        static void Withdraw()
         {
             Console.WriteLine();
             Console.WriteLine("Realizar Saque:" + Environment.NewLine);
-            Console.WriteLine("Digite o número da Conta:");
-            int.TryParse(Console.ReadLine(), out int numeroConta);
-            Console.WriteLine("Digite o valor do Saque (separado por vírgula se for decimal):");
-            double.TryParse(Console.ReadLine(), out double saque);
 
-            var conta = listContas.Find(c => c.NumeroDaConta == numeroConta);
+            ConsoleHelper.ReadPositiveInt("Digite o número da Conta:", out int accountNumber);
+            Console.WriteLine();
+            ConsoleHelper.ReadPositiveOrZeroDecimal("Digite o valor do Saque (separado por vírgula se for decimal):", out decimal withdraw);
+            
+            var account = _accounts.Find(c => c.AccountNumber == accountNumber);
 
-            if (conta == null)
+            if (account == null)
             {
                 throw new ArgumentException("Conta não encontrada");
             }
 
-            conta.Sacar(saque);
+            account.Withdraw(withdraw);
         }
 
-        static void MostrarDadosTodasContas()
+        static void ShowDataForAllAccounts()
         {
             Console.WriteLine();
-            listContas.ForEach(c => ((IImprimivel)c).MostrarDados());
+            _accounts.ForEach(c => ((IPrintableBankAccount)c).ShowAccountData());
         }
     }
 }

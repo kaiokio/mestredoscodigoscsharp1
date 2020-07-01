@@ -28,7 +28,7 @@ namespace Ex_5
 
             Console.WriteLine();
 
-            if (delta > 0)
+            if (delta >= 0)
             {
                 var r1 = (-valorB + Math.Sqrt(delta)) / (2 * valorA);
                 var r2 = (-valorB - Math.Sqrt(delta)) / (2 * valorA);

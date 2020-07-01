@@ -94,10 +94,10 @@ namespace Ex_9
                         Imprimir(_listaValores.OrderByDescending(v => v).ToList());
                         break;
                     case IMPRIMIR_APENAS_O_PRIMEIRO_NUMERO_DA_LISTA:
-                        Imprimir(_listaValores.First());
+                        Imprimir(_listaValores.FirstOrDefault());
                         break;
                     case IMPRIMIR_APENAS_O_ULTIMO_NUMERO_DA_LISTA:
-                        Imprimir(_listaValores.Last());
+                        Imprimir(_listaValores.LastOrDefault());
                         break;
                     case IMPRIMIR_APENAS_OS_NUMERO_PARES:
                         Imprimir(_listaValores.Where(v => v.IsPar()).ToList());
