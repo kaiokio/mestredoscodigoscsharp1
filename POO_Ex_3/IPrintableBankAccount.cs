@@ -4,8 +4,8 @@ using System.Text;
 
 namespace POO_Ex_3
 {
-    public interface IImprimivel
+    public interface IPrintableBankAccount
     {
-        void MostrarDados();
+        void ShowAccountData();
     }
 }
